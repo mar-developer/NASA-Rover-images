@@ -24,9 +24,15 @@ https://api.nasa.gov/index.html
 ### Code challenge task
 
 ```
+- Clone the repository locally
+- Create a new branch
+---------------------------------------
 - Refactor the code so that it is scalable and reusable (hint: Reusable components. What if we decided to do a date picker for the Mars images? Don't add one, but think of scalability)
 - Do not use CSS/SCSS. Do not use bootstrap or any other styling library. Only use vue-styled-components
 - Make use of vuex
 - The design is not so important here
 - Program in Vue 2
+
+***
+IMPORTANT: Create a pull request when you are finished with the challenge
 ```
