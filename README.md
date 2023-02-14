@@ -1,24 +1,32 @@
 # vue-code-challenge
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Open API NASA docs
+
 ```
-npm run build
+https://api.nasa.gov/index.html
+
+-> Mars Rover Photos
+-> APOD
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Code challenge task
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+- Refactor the code so that it is scalable and reusable (hint: Reusable components. What if we decided to do a date picker for the Mars images? Don't add one, but think of scalability)
+- Do not use CSS/SCSS. Do not use bootstrap or any other styling library. Only use vue-styled-components
+- Make use of vuex
+- The design is not so important here
+- Program in Vue 2
+```
