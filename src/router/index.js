@@ -1,26 +1,20 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
 
+import MarsRoutes from './mars-routes'
+
 Vue.use(VueRouter)
 
 const router = new VueRouter({
-  routes: [
-    {
-      path: "/",
-      name: "homePage",
-      component: () => import("@/components/HomePage.vue"),
-    },
-    {
-      path: "/mars-yesterday",
-      name: "marsYesterday",
-      component: () => import("@/components/MarsYesterday.vue"),
-    },
-    {
-      path: "/mars-today",
-      name: "marsToday",
-      component: () => import("@/components/MarsToday.vue"),
-    },
-  ],
+    mode: 'history',
+    routes: [
+        {
+            path: '/',
+            name: 'dashboard',
+            component: () => import('@/pages/Dashboard/Dashboard'),
+        },
+        ...MarsRoutes
+    ],
 })
 
 export default router

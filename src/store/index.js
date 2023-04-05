@@ -1,11 +1,13 @@
 import Vue from "vue"
 import Vuex from "vuex"
-import ImagesModule from "./images-module"
+import Dashboard from "./dashboard"
+import Mars from "./mars"
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   modules: {
-    ImagesModule,
+    Dashboard,
+    Mars,
   },
 })

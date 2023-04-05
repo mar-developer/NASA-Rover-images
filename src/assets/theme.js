@@ -10,6 +10,7 @@ const theme = {
     grey1: "#666",
     grey2: "#c4c4c4",
     grey3: "#b2b9c5",
+    grey4: "#EBECF1",
     green: "#99db0c",
     purple: "#505ca6",
     disabled: "#dfe1e1",
